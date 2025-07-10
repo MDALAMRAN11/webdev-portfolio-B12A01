@@ -1,5 +1,6 @@
 body{
    max-width: 1440px;
+   background-color: #f5f8ff;
 }
 /*primary-colors*/
 .font-color {
@@ -103,4 +104,27 @@ body{
 }.productive-section .all-section h1{
     font-size: 80px;
     font-weight: bold;
+}
+
+/*touch-section*/
+.touch-section{
+    margin: 116px auto;
+    width: 1140px;
+    height: 428px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: white;
+}.touch-section .left-section{
+    width: 528px;
+    height: 232px;
+}.left-section h1 {
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 10px;
+}.touch-section .right-section {
+    width: 497px;
+    height: 350px;
+}.touch-section .right-section input, textarea {
+    width: 100%;
 }
