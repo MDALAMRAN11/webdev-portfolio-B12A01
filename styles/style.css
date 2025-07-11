@@ -174,3 +174,34 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/*users-feedback*/
+.users-feedback h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.users-feedback{
+    width: 1140px;
+    height: 342px;
+    margin: 137px auto;
+}
+.allfeedbacks {
+    display: flex;
+    justify-content: space-between;
+}
+.allfeedbacks .user-feedback {
+    width: 366px;
+    height: 243px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.user-feedback .image-row, .user-feedback .feedback-description, .user-feedback .last-feedback {
+    padding-left: 20px;
+}
+.user-feedback .last-feedback {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
